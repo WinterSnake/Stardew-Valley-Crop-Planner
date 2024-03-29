@@ -5,3 +5,29 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 100%;
 }
+
+div.content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#calendar {
+	table {
+		border: 3px solid;
+		border-collapse: collapse;
+		background-color: #FBEBC2;
+	}
+
+	th, td {
+		border: 2px solid;
+	}
+
+	th {
+		text-align: center;
+	}
+
+	td {
+		background-color: #DDD1B2;
+	}
+}
